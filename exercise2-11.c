@@ -11,7 +11,7 @@ int main(){
     printf("Enter side c: ");
     scanf("%lf", &c);
     s = (a + b + c)/2 ;
-    x = pow(s * (s - a) * (s - b) * (s - c), 0.5);
+    x = sqrt(s * (s - a) * (s - b) * (s - c));
     printf("%.2lf square units.", x);
     
 
